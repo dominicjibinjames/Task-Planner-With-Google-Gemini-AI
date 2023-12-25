@@ -23,13 +23,9 @@ function addTask(count) {
 
     deleteItem.addEventListener("click", function(e){
         let target = e.target.id;
-        console.log(target);
         let deleteList = document.getElementById(target);
-        console.log(deleteList);
         deleteList.remove();
     })
-
-    console.log(count);
     }
 }
 
