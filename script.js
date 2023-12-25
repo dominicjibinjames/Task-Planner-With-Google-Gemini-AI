@@ -1,7 +1,8 @@
 let input = document.querySelector(".input input");
 let deleteTask = document.querySelector(".fa-trash-can");
-let count = 0;
+let count = 0; //to track the ID's
 
+//to add and delete items in the list
 function addTask(count) {
     let lists = document.querySelector(".lists");
     let text = document.querySelector(".input input").value;
@@ -18,7 +19,8 @@ function addTask(count) {
         lists.prepend(list);
         clearTextValue();
         
-        
+
+    //to Delete items in the List
     let deleteItem = document.getElementById(`${count}`).childNodes[1];
 
     deleteItem.addEventListener("click", function(e){
