@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 let aiBtn = document.querySelector("#aiBtn");
 
-const API_KEY = "AIzaSyCCgii0Fwaeqhcb2-IwVtvg1wxB7M6g09A";
+const API_KEY = "";
 // Access your API key (see "Set up your API key" above)
 const genAI = new GoogleGenerativeAI(API_KEY);
 
