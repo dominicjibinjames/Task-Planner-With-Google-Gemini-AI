@@ -22,6 +22,7 @@ body{
     margin-bottom: 2rem;
 }
 
+
 .content {
     display: flex;
     flex-direction: column;
@@ -72,6 +73,14 @@ body{
         cursor: pointer;
 }
 
+#aiBtn {
+    background-color: rgb(65, 65, 161);
+}
+
+#aiBtn:hover {
+    background-color: rgb(95, 95, 168);
+}
+
 .input button:hover{
     background-color: rgb(249, 184, 65);
 }
@@ -95,4 +104,22 @@ body{
 .fa-trash-can {
     cursor: pointer;
     font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .input {
+        flex-direction: column;
+    }
+
+    .input input {
+        width: 90%;
+    }
+
+
+    .actionBtn {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
