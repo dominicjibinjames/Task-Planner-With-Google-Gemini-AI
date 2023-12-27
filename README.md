@@ -1,6 +1,6 @@
 # AI Task Planner
 
-Welcome to AI Task Planner, your personalized task management application with integrated AI capabilities! This task planner not only allows you to efficiently manage your tasks but also leverages the power of [Google's Gemini AI](https://blog.google/technology/ai/google-gemini-ai/#sundar-note) to generate comprehensive task lists based on prompts.
+Welcome to AI Task Planner, your personalized task management application with integrated AI capabilities! This task planner not only allows you to efficiently manage your tasks but also leverages the power of [Google's Gemini AI](https://blog.google/technology/ai/google-gemini-ai) to generate comprehensive task lists based on prompts.
 
 
 ### Demo
