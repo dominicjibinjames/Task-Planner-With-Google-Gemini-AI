@@ -47,10 +47,11 @@ const genAI = new GoogleGenerativeAI(API_KEY);
         alert("Error: Please rephrase your query and try again!")
         aiBtn.removeAttribute("disabled","");
         return
-    }
+    } 
    
     list.innerHTML = `${prompt}: <br>${textContent} <i id="${count}" class="fa-regular fa-trash-can"></i> `;
-    
+    list.style.whiteSpace = "pre-line"; //to preserve white spaces of recieved content
+
     //Delete button for the created list
     let deleteItem = list.querySelector('i');
     deleteItem.addEventListener("click", function(e) {
